@@ -22,5 +22,11 @@
   "command": "C:\\mingw64_14.2.0\\bin\\g++.exe -Dshow_result_EXPORTS @CMakeFiles/show_result.dir/includes_CXX.rsp -g -o CMakeFiles\\show_result.dir\\show_result.cpp.obj -c E:\\cmake_planning_demo\\src\\show_result\\show_result.cpp",
   "file": "E:/cmake_planning_demo/src/show_result/show_result.cpp",
   "output": "src/show_result/CMakeFiles/show_result.dir/show_result.cpp.obj"
+},
+{
+  "directory": "E:/cmake_planning_demo/build/test/map_test",
+  "command": "C:\\mingw64_14.2.0\\bin\\g++.exe  @CMakeFiles/map_test.dir/includes_CXX.rsp -g -o CMakeFiles\\map_test.dir\\map_test.cpp.obj -c E:\\cmake_planning_demo\\test\\map_test\\map_test.cpp",
+  "file": "E:/cmake_planning_demo/test/map_test/map_test.cpp",
+  "output": "test/map_test/CMakeFiles/map_test.dir/map_test.cpp.obj"
 }
 ]
