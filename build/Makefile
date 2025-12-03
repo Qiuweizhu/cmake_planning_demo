@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\cmake_planning_demo\build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake\bin\cmake-gui.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\cmake\cmake-4.2.0-windows-x86_64\bin\cmake-gui.exe -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -154,6 +154,19 @@ process/fast:
 	$(MAKE) $(MAKESILENT) -f src\process\CMakeFiles\process.dir\build.make src/process/CMakeFiles/process.dir/build
 .PHONY : process/fast
 
+#=============================================================================
+# Target rules for targets named show_result
+
+# Build rule for target.
+show_result: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 show_result
+.PHONY : show_result
+
+# fast build rule for target.
+show_result/fast:
+	$(MAKE) $(MAKESILENT) -f src\show_result\CMakeFiles\show_result.dir\build.make src/show_result/CMakeFiles/show_result.dir/build
+.PHONY : show_result/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +178,7 @@ help:
 	@echo ... planning_main
 	@echo ... pnc_map
 	@echo ... process
+	@echo ... show_result
 .PHONY : help
 
 
