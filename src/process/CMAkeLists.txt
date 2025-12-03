@@ -7,10 +7,15 @@ process.cpp
 
 target_include_directories(${PROJECT_NAME}
 PUBLIC
-${PNC_Map_Dir}
+${PnC_Map_Dir}
 )
 
 target_link_libraries(${PROJECT_NAME}
 PUBLIC
 pnc_map
+)
+
+target_link_libraries(${PROJECT_NAME}
+PUBLIC
+Eigen3::Eigen
 )

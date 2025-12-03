@@ -168,9 +168,9 @@ src/show_result/clean: src/show_result/CMakeFiles/show_result.dir/clean
 # Target rules for target src/CMakeFiles/planning_main.dir
 
 # All Build rule for target.
+src/CMakeFiles/planning_main.dir/all: src/pnc_map/CMakeFiles/pnc_map.dir/all
 src/CMakeFiles/planning_main.dir/all: src/show_result/CMakeFiles/show_result.dir/all
 src/CMakeFiles/planning_main.dir/all: src/process/CMakeFiles/process.dir/all
-src/CMakeFiles/planning_main.dir/all: src/pnc_map/CMakeFiles/pnc_map.dir/all
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\CMakeFiles\planning_main.dir\build.make src/CMakeFiles/planning_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\cmake_planning_demo\build\CMakeFiles --progress-num=1,2 "Built target planning_main"
@@ -266,8 +266,8 @@ src/process/CMakeFiles/process.dir/clean:
 # Target rules for target src/show_result/CMakeFiles/show_result.dir
 
 # All Build rule for target.
-src/show_result/CMakeFiles/show_result.dir/all: src/process/CMakeFiles/process.dir/all
 src/show_result/CMakeFiles/show_result.dir/all: src/pnc_map/CMakeFiles/pnc_map.dir/all
+src/show_result/CMakeFiles/show_result.dir/all: src/process/CMakeFiles/process.dir/all
 	$(MAKE) $(MAKESILENT) -f src\show_result\CMakeFiles\show_result.dir\build.make src/show_result/CMakeFiles/show_result.dir/depend
 	$(MAKE) $(MAKESILENT) -f src\show_result\CMakeFiles\show_result.dir\build.make src/show_result/CMakeFiles/show_result.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=E:\cmake_planning_demo\build\CMakeFiles --progress-num=7,8 "Built target show_result"

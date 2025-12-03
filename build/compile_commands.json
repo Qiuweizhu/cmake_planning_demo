@@ -13,7 +13,7 @@
 },
 {
   "directory": "E:/cmake_planning_demo/build/src/process",
-  "command": "C:\\mingw64_14.2.0\\bin\\g++.exe -Dprocess_EXPORTS  -g -o CMakeFiles\\process.dir\\process.cpp.obj -c E:\\cmake_planning_demo\\src\\process\\process.cpp",
+  "command": "C:\\mingw64_14.2.0\\bin\\g++.exe -Dprocess_EXPORTS @CMakeFiles/process.dir/includes_CXX.rsp -g -o CMakeFiles\\process.dir\\process.cpp.obj -c E:\\cmake_planning_demo\\src\\process\\process.cpp",
   "file": "E:/cmake_planning_demo/src/process/process.cpp",
   "output": "src/process/CMakeFiles/process.dir/process.cpp.obj"
 },
